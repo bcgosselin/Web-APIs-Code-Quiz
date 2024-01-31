@@ -57,6 +57,9 @@ Utilized within function startTimer
 Utilized for hideIntro variable
     https://stackoverflow.com/questions/2420135/hide-html-element-by-id
 
+Utilized for displayQuestion function
+    https://www.w3schools.com/jquery/jquery_syntax.asp
+
 
 
 

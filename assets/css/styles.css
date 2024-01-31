@@ -34,5 +34,11 @@ main div p {
     padding-bottom: 2em;
 }
 
-
+.question {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40%;
+}
 
