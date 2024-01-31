@@ -30,9 +30,7 @@ var question = [
 ];
 
 
-//function startTimer
-//timer start at 60 seconds paired with start button
-//if/else condition that says if q is right you get 10 points if wrong lopse 10 seconds from timer
+//function to start timer countdown when start quiz button is clicked
 var timer;
 var countdown = doc.getElementById('timerDisplay')
 
@@ -43,9 +41,21 @@ function startTimer() {
 		sec --;
 	}, 1000)
 }
+//if/else condition that says if q is right you get 10 points if wrong lopse 10 seconds from timer
+
+
+
+//must hide header and display question container
+function hideHeader() {
+	//var to hide intro
+	var hideIntro =doc.getElementById('intro');
+	hideIntro.style.display = 'none';
+	//var to show question array
+}
+
 
 //function displayQuestion
-//must hide header and display question container
+
 
 //function finalScore
 //access and pull if condition
@@ -53,4 +63,7 @@ function startTimer() {
 //function highScore
 //store finalScore function data in local storage
 
+//event listener for startTimer
 startBtn.addEventListener("click", startTimer)
+//event listener for displayQuestion
+startBtn.addEventListener("click", hideHeader)

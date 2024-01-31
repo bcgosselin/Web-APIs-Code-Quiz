@@ -54,6 +54,11 @@ Utilized within var question
 Utilized within function startTimer
     https://www.youtube.com/watch?v=4piMZDO5IOI&ab_channel=ReachStar
 
+Utilized for hideIntro variable
+    https://stackoverflow.com/questions/2420135/hide-html-element-by-id
+
+
+
 
 
 ## License
