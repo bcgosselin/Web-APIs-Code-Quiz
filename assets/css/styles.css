@@ -34,11 +34,22 @@ main div p {
     padding-bottom: 2em;
 }
 
-.question {
+.question,
+.finalScore,
+.highScore h1 {
     text-align: left;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     margin-left: 40%;
+    margin-right: 30%;
 }
 
+.question,
+.finalScore,
+.highScore h1 {
+    flex-direction: column;
+}
+
+.highScore button {
+    flex-direction: row;
+}

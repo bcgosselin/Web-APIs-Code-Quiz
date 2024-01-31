@@ -2,10 +2,10 @@ var doc = document;
 var startBtn = doc.querySelector("#start");
 var countdown = doc.getElementById('timerDisplay');
 var questionContainer = doc.getElementById('questionContainer');
-// var answerButton = doc.getElementsByClassName("question")
 
 var timer;
 var questionIndex = 0;
+var score = 0;
 
 function startTimer() {
     var sec = 60;
@@ -14,7 +14,7 @@ function startTimer() {
         sec--;
         if (sec < 0) {
             clearInterval(timer);
-            // go to final score page or handle timer expiration
+            // go to final score page
         }
     }, 1000);
 }
@@ -27,26 +27,37 @@ function hideHeader() {
 
 function displayQuestion() {
     var showQuestion = doc.getElementById('questionContainer');
-	// $("question").click(nextQuestion() {
     if (questionIndex < questions.length) {
         var currentQuestion = questions[questionIndex];
         showQuestion.innerHTML = `
-		<p>${currentQuestion.question}</p>
-		<div class="question">
+		<div class= "qna"><p>${currentQuestion.question}</p>
+			<div class="question">
 				<ul>
-					${currentQuestion.answers.map(answer => `<li><button>${answer}</button></li>`).join('')}
+					${currentQuestion.answers.map(answer => `<ul><button>${answer}</button></ul>`).join('')}
 				</ul>
 			</div>
+		</div>
         `;
         questionIndex++;
     } else {
-        showFinalScore();
+		showFinalScore();
     }
-// });
+	const questionLoop = document.querySelectorAll(".qna");
+ 	for (let i = 0; i < questionLoop.length; i++) {
+  		questionLoop[i].addEventListener("click", displayQuestion);
+		if (questions.answers === questions.correctAnswer)
+		score => +10
+		
+	
+}
+	
 }
 
 function showFinalScore() {
     // Logic to show the final score page
+	$(".qna").empty();
+
+	
 }
 
 startBtn.addEventListener("click", function() {
@@ -54,7 +65,6 @@ startBtn.addEventListener("click", function() {
     hideHeader();
 });
 
-// answerButton.addEventListener("click", ());
 
 var questions = [
 	{
