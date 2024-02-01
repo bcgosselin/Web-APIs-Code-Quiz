@@ -27,33 +27,32 @@ Feel free to view below screenshot (ctrl + click).
 ## Credits
 
 Utilized within variable question
-    - https://stackoverflow.com/questions/62594459/how-to-check-the-correct-answer-javascript-4-buttons
+    - [https://stackoverflow.com/questions/62594459/how-to-check-the-correct-answer-javascript-4-buttons]
 
-    - assistance from instructor during office hours
+    - [assistance from instructor during office hours]
 
 Utilized within function startTimer
-    - https://www.youtube.com/watch?v=4piMZDO5IOI&ab_channel=ReachStar
+    - [https://www.youtube.com/watch?v=4piMZDO5IOI&ab_channel=ReachStar]
 
 Utilized for variable hideIntro
-    - https://stackoverflow.com/questions/2420135/hide-html-element-by-id
+    - [https://stackoverflow.com/questions/2420135/hide-html-element-by-id]
 
 Utilized for function displayQuestion
-    - https://www.w3schools.com/jquery/jquery_syntax.asp
-
+    - [https://www.w3schools.com/jquery/jquery_syntax.asp]
 
 Utilized for questionLoop
-    - https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class
+    - [https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class]
 
 Utilized for function displayFinalScore
-    - https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_click_trigger
+    - [https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_click_trigger]
 
-    - https://blog.logrocket.com/localstorage-javascript-complete-guide/#:~:text=of%20a%20localStorage-,Storing%20data%20with%20setItem(),the%20value%20attached%20to%20it.
+    - [https://blog.logrocket.com/localstorage-javascript-complete-guide/#:~:text=of%20a%20localStorage-,Storing%20data%20with%20setItem(),the%20value%20attached%20to%20it]
 
-    - https://medium.com/@awaisalwaisy/how-to-store-html-form-value-in-an-array-9aedffab7c#:~:text=To%20get%20input%20from%20an,()%20method%20of%20the%20array.&text=You%20can%20add%20as%20many,in%20the%20array%20as%20needed.
+    - [https://medium.com/@awaisalwaisy/how-to-store-html-form-value-in-an-array-9aedffab7c#:~:text=To%20get%20input%20from%20an,()%20method%20of%20the%20array.&text=You%20can%20add%20as%20many,in%20the%20array%20as%20needed]
 
 Utilized for userInput, .map functions, and JSON.parse
 
-    - assistance from friend
+    - [assistance from friend]
 
 
 
