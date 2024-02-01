@@ -3,39 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 4 Challenge</title>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Module 4 Challenge</title>
 </head>
 <body>
+
+    <!--header section-->
+
     <header>
-        <ul>View high score</ul>
+        <ul><button onclick="displayHighScorePage()">View high score</button></ul>
         <div>
             <ul id="timerDisplay">Timer</ul>
         </div>
     </header>
+
+    <!--main section-->
 
     <main>
         <div>
             <div id="intro"><h1>Coding Quiz Challenge</h1>
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
                 <button id="start">Start Quiz</button></div>
+                
                 <div id="questionContainer"></div>
         </div>
 
-        <div class="finalScore"><h1>Final Score</h1>
-            <p>your final score is: </p>
-            <form>Initials: <input type="text" value=""></form>
-        </div>
-        
-        <div class="highScore"><h1>High Score</h1>
-            <ul></ul>
-            <br></div>
-            <button>Restart</button>
-            <button>Clear High Scores</button>
-        </div>
-    
-    
+
     </main>
     
 

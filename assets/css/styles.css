@@ -1,3 +1,4 @@
+/*global styles*/
 * {
     box-sizing: border-box;
 }
@@ -10,10 +11,14 @@ main {
   padding: 0;
 }
 
+/*body styles*/
+
 body {
     font-family: sans-serif;
     background-color: #f9fbfd;
 }
+
+/*header styles*/
 
 header {
     text-align: center;
@@ -23,6 +28,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+/*main styles*/
 
 main {
     text-align: center;
@@ -34,8 +41,10 @@ main div p {
     padding-bottom: 2em;
 }
 
+/*id styles*/
+
 .question,
-.finalScore,
+.finalScore h1 p,
 .highScore h1 {
     text-align: left;
     display: flex;

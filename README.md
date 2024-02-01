@@ -25,7 +25,7 @@ https://bcgosselin.github.io/module-4-challenge/
 
 ## Description
 
-This project is Robert Gosselin's fourth web application challenge. This project was created to showcase his skills and aptitude using only text based instructions. This webpage's index, script, and style sheet was written by hand utilizing credited resources [Credits](#credits). The goal of this challenge was to develop and engineer a fuctioning quiz on a live website. Everything included was apart of an ongoing bootcamp to develop and hone Full Stack Web Development skills.
+This project is Robert Gosselin's fourth web application challenge. This project was created to showcase his skills and aptitude using only text based instructions. This webpage's index, script utilizing jQuery API, and style sheet was written by hand utilizing credited resources [Credits](#credits). The goal of this challenge was to develop and engineer a fuctioning quiz on a live website. Everything included was apart of an ongoing bootcamp to develop and hone Full Stack Web Development skills.
 
 ## Table of Contents (Optional)
 
@@ -46,7 +46,7 @@ Feel free to view below screenshot (ctrl + click).
 
 ## Credits
 
-Utilized within var question
+Utilized within variable question
     https://stackoverflow.com/questions/62594459/how-to-check-the-correct-answer-javascript-4-buttons
 
     assistance from instructor during office hours
@@ -54,11 +54,27 @@ Utilized within var question
 Utilized within function startTimer
     https://www.youtube.com/watch?v=4piMZDO5IOI&ab_channel=ReachStar
 
-Utilized for hideIntro variable
+Utilized for variable hideIntro
     https://stackoverflow.com/questions/2420135/hide-html-element-by-id
 
-Utilized for displayQuestion function
+Utilized for function displayQuestion
     https://www.w3schools.com/jquery/jquery_syntax.asp
+
+
+
+Utilized for questionLoop
+    https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class
+
+Utilized for function displayFinalScore
+    https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_click_trigger
+
+    https://blog.logrocket.com/localstorage-javascript-complete-guide/#:~:text=of%20a%20localStorage-,Storing%20data%20with%20setItem(),the%20value%20attached%20to%20it.
+
+    https://medium.com/@awaisalwaisy/how-to-store-html-form-value-in-an-array-9aedffab7c#:~:text=To%20get%20input%20from%20an,()%20method%20of%20the%20array.&text=You%20can%20add%20as%20many,in%20the%20array%20as%20needed.
+
+Utilized for userInput
+
+    assistance from friend
 
 
 
