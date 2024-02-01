@@ -5,7 +5,7 @@ var countdown = doc.getElementById('timerDisplay');
 var timer;
 var questionIndex = 0;
 var score = 0;
-var sec = 30;
+var sec = 300000;
 
 //Start Timer Fuction sharing Event Listener with hideHeader function
 
@@ -31,7 +31,8 @@ function hideHeader() {
 	displayQuestion();
 }
 
-//added event listener parameter to function to handle user selected answers. function logs the score to the console, removes time from timer for incorrect answwer and calls for displayQuestion function
+//added event listener parameter to function to handle user selected answers. function logs the score to the console, 
+//removes time from timer for incorrect answwer and calls for displayQuestion function
 
 function userInput(event) {
     const selectedAnswer = event.target.textContent;
@@ -46,7 +47,9 @@ function userInput(event) {
 	displayQuestion();
 }
 
-//function to input the questionIndex array 1 by 1 in ascending order into the questionContainer element. utilized JQuery API to easliy call for the question array and to use the built in js map function to iterate the array. function then creates an array of buttons, converts the answers array into strings and then joins them together.
+//function to input the questionIndex array 1 by 1 in ascending order into the questionContainer element. utilized JQuery API to easliy call 
+//for the question array and to use the built in js map function to iterate the array. function then creates an array of buttons, 
+//converts the answers array into strings and then joins them together.
 
 function displayQuestion() {
     var showQuestion = doc.getElementById('questionContainer');
@@ -78,7 +81,8 @@ function displayQuestion() {
     }
 }
 
-//function that clears the qna class, assigns HTML elements to questionContainer, sets the value of the user inputed initials, and utilizes jQuery click function to store the value of user input and score as strings via json.stringify into local storage.
+//function that clears the qna class, assigns HTML elements to questionContainer, sets the value of the user inputed initials, 
+//and utilizes jQuery click function to store the value of user input and score as strings via json.stringify into local storage.
 
 function displayFinalScorePage() {
     clearInterval(timer); // Stop the timer
@@ -117,7 +121,8 @@ function displayFinalScorePage() {
 
 }
 
-//function that once again clears qna class, accesses the stringified localStorage data, converts inital and score back into objects then converts back to strings to be inputed in the html element li using jQuery. 
+//function that once again clears qna class, accesses the stringified localStorage data, converts inital and 
+//score back into objects then converts back to strings to be inputed in the html element li using jQuery. 
 
 function displayHighScorePage() {
     $(".qna").empty();
