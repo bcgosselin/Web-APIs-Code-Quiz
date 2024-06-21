@@ -1,4 +1,4 @@
-# module-4-challenge
+# Web APIs: Code Quiz
 Full Stack Web Development Project 4
 
 https://bcgosselin.github.io/module-4-challenge/
