@@ -1,5 +1,5 @@
 # Web APIs: Code Quiz
-Full Stack Web Development Project 4
+Built a timed coding quiz featuring dynamically updated HTML and CSS with JavaScript. Implemented a timer and scoring mechanism, along with handling multiple-choice questions. Stored and displayed high scores, creating a polished user interface.
 
 ## Live Web App
 
